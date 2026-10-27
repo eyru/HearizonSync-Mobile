@@ -1,0 +1,34 @@
+# 构建与本地产物（不入库）
+build/
+.gradle/
+dist/
+*.apk
+*.aab
+local.properties
+keystore.properties
+工具/keystore/
+
+# 第三方模型权重（体积超 GitHub 单文件上限，按 README「模型来源」自行下载）
+app/src/main/assets/models/
+app/src/main/assets/mt/
+app/src/main/assets/mt_en_zh/
+app/src/main/assets/mt_ja_en/
+app/src/main/assets/mt_ko_en/
+工具/参考实现/opus/
+工具/参考实现/opus_en_zh/
+工具/参考实现/opus_ja_en/
+工具/参考实现/opus_ko_en/
+工具/参考实现/opus_mul_en/
+
+# IDE / 系统
+.idea/
+*.iml
+.vscode/
+.kotlin/
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store
+
+# 旧工程占位说明（已重建，无需入库）
+README-已剿灭.md
